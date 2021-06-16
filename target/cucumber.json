@@ -1,0 +1,339 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-15T22:59:19.073Z",
+        "line": 36,
+        "name": "Place an order for T shirt and verify the order history",
+        "description": "",
+        "id": "user-order-t-shirt;place-an-order-for-t-shirt-and-verify-the-order-history;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4182172500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the Home page",
+            "match": {
+              "location": "Stepdefs.userIsOnTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2729409600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the SignIn button",
+            "match": {
+              "location": "Stepdefs.userClicksOnTheSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15171700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be navigated to the signin page",
+            "match": {
+              "location": "Stepdefs.userShouldBeNavigatedToTheSigninPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 257295300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters username \"sangeetha067@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sangeetha067@gmail.com",
+                  "offset": 22
+                }
+              ],
+              "location": "Stepdefs.userEntersUsername(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 249600100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters password \"test1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 22
+                }
+              ],
+              "location": "Stepdefs.userEntersPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152348700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on Sign in button",
+            "match": {
+              "location": "Stepdefs.userClicksOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3521700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should be navigated to Login Landing page",
+            "match": {
+              "location": "Stepdefs.userShouldBeNavigatedToLoginLandingPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 151797900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on T-Shirts button",
+            "match": {
+              "location": "Stepdefs.userClicksOnTShirtsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Verify CategoryPage is opened expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat stepdefinitions.Stepdefs.userShouldBeNavigatedToCategoryPage(Stepdefs.java:60)\r\n\tat ✽.User should be navigated to category page(file:src/test/resources/features/userjourney.feature:14)\r\n",
+              "duration": 4596400,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "User should be navigated to category page",
+            "match": {
+              "location": "Stepdefs.userShouldBeNavigatedToCategoryPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10100,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User clicks on add to card button",
+            "match": {
+              "location": "Stepdefs.userClicksOnAddToCardButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3300,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User clicks on proceed to checkout button",
+            "match": {
+              "location": "Stepdefs.userClicksOnProceedToCheckoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3100,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User should be navigated to order summary page",
+            "match": {
+              "location": "Stepdefs.userShouldBeNavigatedToOrderSummaryPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3100,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User clicks on proceed to checkout button for address",
+            "match": {
+              "location": "Stepdefs.userClicksOnProceedToCheckoutButtonForAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2900,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User clicks on proceed to checkout button for shipping",
+            "match": {
+              "location": "Stepdefs.userClicksOnProceedToCheckoutButtonForShipping()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User accepts the terms and condition by clicking the check box",
+            "match": {
+              "location": "Stepdefs.userAcceptsTheTermsAndConditionByClickingTheCheckBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2900,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User clicks on proceed to checkout button for payment",
+            "match": {
+              "location": "Stepdefs.userClicksOnProceedToCheckoutButtonForPayment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User should be navigated to payment method page",
+            "match": {
+              "location": "Stepdefs.userShouldBeNavigatedToPaymentMethodPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2900,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User clicks on Pay by bank wire button",
+            "match": {
+              "location": "Stepdefs.userClicksOnPayByBankWireButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User should be navigated to order summary page",
+            "match": {
+              "location": "Stepdefs.userShouldBeNavigatedToOrderSummaryPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6300,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "User clicks on I confirm my order button",
+            "match": {
+              "location": "Stepdefs.userClicksOnIConfirmMyOrderButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User should see the order confirmation message",
+            "match": {
+              "location": "Stepdefs.userShouldSeeTheOrderConfirmationMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2900,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User should clicks on back to order link",
+            "match": {
+              "location": "Stepdefs.userShouldClicksOnBackToOrderLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7100,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User should be navigated to order history page",
+            "match": {
+              "location": "Stepdefs.userShouldBeNavigatedToOrderHistoryPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3100,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "User should able to verify the order reference number with transaction order reference number",
+            "match": {
+              "location": "Stepdefs.userShouldAbleToVerifyTheOrderReferenceNumberWithTransactionOrderReferenceNumber()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          }
+        ]
+      }
+    ],
+    "name": "User order T-Shirt",
+    "description": "  Description: Place an order and verify the order history",
+    "id": "user-order-t-shirt",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/userjourney.feature",
+    "tags": [
+      {
+        "name": "@ui",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

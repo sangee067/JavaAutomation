@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.747987">
+<testcase classname="User order T-Shirt" name="Place an order for T shirt and verify the order history" time="7.747987">
+<failure message="java.lang.AssertionError: Verify CategoryPage is opened expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:44)&#13;&#10;&#9;at stepdefinitions.Stepdefs.userShouldBeNavigatedToCategoryPage(Stepdefs.java:60)&#13;&#10;&#9;at ✽.User should be navigated to category page(file:src/test/resources/features/userjourney.feature:14)&#13;&#10;"><![CDATA[Given User is on the Home page..............................................passed
+When User clicks on the SignIn button.......................................passed
+Then User should be navigated to the signin page............................passed
+And User enters username "sangeetha067@gmail.com"...........................passed
+And User enters password "test1234".........................................passed
+And User clicks on Sign in button...........................................passed
+Then User should be navigated to Login Landing page.........................passed
+And User clicks on T-Shirts button..........................................passed
+Then User should be navigated to category page..............................failed
+And User clicks on add to card button.......................................skipped
+And User clicks on proceed to checkout button...............................skipped
+Then User should be navigated to order summary page.........................skipped
+And User clicks on proceed to checkout button for address...................skipped
+And User clicks on proceed to checkout button for shipping..................skipped
+And User accepts the terms and condition by clicking the check box..........skipped
+And User clicks on proceed to checkout button for payment...................skipped
+Then User should be navigated to payment method page........................skipped
+When User clicks on Pay by bank wire button.................................skipped
+Then User should be navigated to order summary page.........................skipped
+And User clicks on I confirm my order button................................skipped
+Then User should see the order confirmation message.........................skipped
+When User should clicks on back to order link...............................skipped
+Then User should be navigated to order history page.........................skipped
+And User should able to verify the order reference number with transaction order reference number.skipped
+
+StackTrace:
+java.lang.AssertionError: Verify CategoryPage is opened expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at stepdefinitions.Stepdefs.userShouldBeNavigatedToCategoryPage(Stepdefs.java:60)
+	at ✽.User should be navigated to category page(file:src/test/resources/features/userjourney.feature:14)
+]]></failure>
+</testcase>
+</testsuite>
